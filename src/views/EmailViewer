@@ -1,0 +1,17 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+
+function EmailViewer() {
+  const { id } = useParams();
+
+  // Use the 'id' to fetch or determine which email to display.
+
+  return (
+    <div>
+      {/* Display the details of the email with the given 'id' */}
+    </div>
+  );
+}
+
+
+export default EmailViewer;
